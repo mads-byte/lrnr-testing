@@ -175,9 +175,9 @@ export default function QuizGeneration() {
             <option value="captain jack sparrow">captain jack sparrow</option>
             <option value="matthew mcconaughey">matthew mcconaughey</option>
           </select>
-          <span id="required-message">{error}</span>
+          <span data-testid="cypress-error" id="required-message">{error}</span>
           <br></br>
-          <button className="submit-btn" type="submit">
+          <button data-testid="cypress-submit" className="submit-btn" type="submit">
             SUBMIT
           </button>
         </form>
