@@ -18,7 +18,7 @@ export default function Home() {
             <div className="main-content">
                 <img src={turtleImg} className="turtle-logo" alt="blue image of a turtle and lrnr logo" />
                 <p className="homepage-headline">Your guided path to programming enlightment</p>
-                <button data-testid="cypress-btn" className="begin-journey-btn" onClick={handleClick}>BEGIN JOURNEY</button>
+                <button className="begin-journey-btn" onClick={handleClick}>BEGIN JOURNEY</button>
             </div>
 
             <div className="subcontent">
@@ -34,7 +34,7 @@ export default function Home() {
 
                 <div className="subcontent-divs">
                     <img src={moneyImg} className="moneyImg" alt="green money icon" />
-                    <h3 data-testid="cypress-h3" >Rewarding</h3>
+                    <h3>Rewarding</h3>
                     <p>Our app is designed to be both challenging and rewarding, so you can learn new concepts while enjoying the process.
                         With our personalized quiz app, you can track your progress, compete with your peers, and discover new areas of
                         expertise. The journey of a thousand lines of code begins with a single keystroke.
